@@ -1,0 +1,17 @@
+.card_container {
+  width: 320px;
+  height: 200px;
+  border: 1px solid lightgray;
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 18px;
+    
+    .icon{
+        color: #007BFF;
+        font-size: 24px;
+    }
+  }
+}
